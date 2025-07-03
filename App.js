@@ -50,3 +50,19 @@ const styles = StyleSheet.create({
     marginTop: Constants.statusBarHeight,
   },
 });
+
+/*
+< 플레이스토어 AAB 빌드 방법 >
+
+eas build --platform android --profile production
+eas build --platform android --profile production --clear-cache  // 설정변경 후 적용 빌드의 경우
+
+< apk 빌드 방법 >
+
+eas build --platform android --profile preview
+eas build --platform android --profile preview --clear-cache  // 설정변경 후 적용 빌드의 경우
+
+< 번외: expo cli 업그레이드 >
+
+expo-cli upgrade
+*/
